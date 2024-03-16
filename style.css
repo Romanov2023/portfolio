@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body {
+	background: linear-gradient(103deg, #0C1527 0%, #0C2553 100%);
+	margin-left: 105px;
+	margin-right: 105px;
+}
+
+nav {
+	color: #fff;
+	font-size: 16.80px;
+	font-family: Inter;
+	font-weight: 400;
+	margin-top: 30px;
+	/*margin-right: 105px;*/
+}
+ul {
+	display: flex;
+	justify-content: flex-end;
+	gap: 18px;
+	list-style-type: none;
+}
+/* Ссылки:непосещенная, посещенная, наведение, активная. */
+a:link {
+	color: #fff;
+}
+a:visited {
+	color: #B0B0B0;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: #CAF943;
+}
+
+.hello {
+	width: 493px;
+	margin-top: 200px;
+	/*margin-left: 105px;*/
+}
+.greeting {
+	color: #B0B0B0;
+	font-size: 48px;
+	font-family: Bayon;
+	font-weight: 400;
+}
+.name {
+	color: #fff;
+	font-size: 64px;
+	font-family: Inter;
+	font-weight: 400;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+span {
+	color: #B0B0B0;
+	font-size: 20px;
+	font-family: Bayon;
+	font-weight: 400;
+}
+button {
+	width: 493px;
+	height: 133px;
+	color: #13213A;
+	font-size: 48px;
+	font-family: Inter;
+	font-weight: 700;
+	margin-top: 105px;
+	margin-bottom: 100px;
+	/*margin-left: 105px;*/
+	background: #CAF943;
+	box-shadow: 0px 0px 27px #648602 inset;
+	border: 2px #000 solid;
+	border-radius: 30px;
+  position: relative;
+  padding: 10px;
+}
+button::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom:8px;
+  border: 6px solid black;
+	border-radius: 28px;
+}
+.screen {
+	height: 100vh;
+	/*display: flex;*/
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	color: #fff;
+}
+h1, p {
+	margin-bottom: 32px;
+}
+
+/* Блок с таблицей на второй секции*/
+.backgroundtable {
+	background: #0C2553;
+	height: 400px;
+	padding: 40px 40px;
+}
+
+
+/* Концепция, пока оставлю так, потом переработаю
+#screen1 {
+	display: block;
+
+}
+
+#screen2 {
+
+}
+
+#screen3 {
+
+}
+
+#screen4 {
+	
+}
+
+#screen5 {
+	
+}
+
+#screen6 {
+	
+}
+*/
+
